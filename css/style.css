@@ -1,0 +1,79 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	padding: 50px 20px;
+	background-color: #24292e;
+}
+h3 {
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.box {
+	width: 600px;
+	max-width: 100%;
+	min-height: 500px;
+	margin: 20px auto 50px;
+	border: 1px solid #eee;
+	padding: 40px 20px;
+	-webkit-box-shadow: 0 0 15px 0 rgba(247, 245, 245, 0.05);
+	box-shadow: 0 0 15px 0 rgba(247, 245, 245, 0.05);
+	background-color: #f4f7fc;
+	overflow: hidden;
+	position: relative;
+}
+input[type=text] {
+	border: 1px solid #ddd;
+    width: 100%;
+	transition: all ease-in 0.25s;
+	line-height: 2em;
+    display: inline-block;
+    padding: 0.2em 1em;
+	font-size: 1em;
+	text-align: center;
+}
+input:focus {
+    outline: none;
+    border: 1px solid #24292e;
+}
+.message {
+	font-weight: bold;
+	text-align: center;
+	margin: 40px 0;
+}
+.user-profile {
+	margin-top: 40px;
+	text-align: center;
+}
+.user-profile > * {
+	display: block;
+	width: 100%;
+	padding: 8px;
+}
+.avatar {
+	border-radius: 50%;
+}
+.name {
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #24292e;
+	font-size: 2em;
+}
+.count-container {
+	display: inline-block;
+	padding: 18px;
+}
+.counter {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+footer a {
+	color: #fff;
+}
